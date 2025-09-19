@@ -1,10 +1,10 @@
-package com.apex.trade.orderplacementexecution;
+package com.apex.trade.exchange;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderplacementexecutionApplicationTests {
+class ExchangeApplicationTests {
 
 	@Test
 	void contextLoads() {
