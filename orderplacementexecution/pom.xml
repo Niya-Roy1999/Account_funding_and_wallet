@@ -11,8 +11,8 @@
 	<groupId>com.apex.trade</groupId>
 	<artifactId>orderplacementexecution</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>orderplacementexecution</name>
-	<description>Account Funding and Wallet</description>
+	<name>exchange application</name>
+	<description>Exchange Application</description>
 	<url/>
 	<licenses>
 		<license/>
