@@ -51,7 +51,6 @@ public class OrdersController {
         producer.publish("orders.v1",order.getId().toString(),evt,
                 Map.of("correlationId", UUID.randomUUID().toString(),
                         "schemaVersion","v1","producer","order-service"));
-
         return ResponseEntity.accepted().body(Map.of("orderId",order.getId()));
     }
 }

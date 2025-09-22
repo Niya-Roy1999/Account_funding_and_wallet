@@ -25,3 +25,4 @@ public class PlaceOrderRequest {
     @PositiveOrZero
     BigDecimal price;
 }
+
